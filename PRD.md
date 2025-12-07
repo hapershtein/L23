@@ -35,8 +35,8 @@ Create a comprehensive educational project demonstrating Support Vector Machine 
   - Visualization showing decision boundary and support vectors
   - Results output: `Results.md`
 
-#### 2.1.2 Multi-class Classification (3 Classes)
-<!-- - **Script**: `svm_classification_3classes.py`
+<!--#### 2.1.2 Multi-class Classification (3 Classes)
+ - **Script**: `svm_classification_3classes.py`
 - **Classes**: Setosa, Versicolor, Virginica
 - **Features**: Petal Length, Petal Width
 - **Kernel**: RBF (Radial Basis Function)
