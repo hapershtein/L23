@@ -1,0 +1,14 @@
+# Python Requirements for SVM Classification Project
+# Iris Dataset - Binary and Multi-class Classification with Support Vector Machines
+
+# Core Scientific Computing
+numpy>=1.21.0
+
+# Machine Learning
+scikit-learn>=1.0.0
+
+# Data Visualization
+matplotlib>=3.5.0
+
+# Scientific Python Stack
+scipy>=1.7.0
