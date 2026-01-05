@@ -35,7 +35,7 @@ Create a comprehensive educational project demonstrating Support Vector Machine 
   - Visualization showing decision boundary and support vectors
   - Results output: `Results.md`
 
-<!--#### 2.1.2 Multi-class Classification (3 Classes)
+#### 2.1.2 Multi-class Classification (3 Classes)
  - **Script**: `svm_classification_3classes.py`
 - **Classes**: Setosa, Versicolor, Virginica
 - **Features**: Petal Length, Petal Width
@@ -46,7 +46,7 @@ Create a comprehensive educational project demonstrating Support Vector Machine 
   - Confusion matrix and heatmap
   - Classification report
   - Three-panel visualization (decision boundaries, original data, support vector distribution)
-  - Results output: `Results_3_classes.md` -->
+  - Results output: `Results_3_classes.md`
 
 #### 2.1.3 Grouped Binary Classification (Weight Vector Analysis)
 - **Script**: `svm_classification_grouped.py`

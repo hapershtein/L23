@@ -85,11 +85,11 @@ python3 svm_classification.py
 ```
 **Output**: `Results.md`, `svm_visualization.png`
 
-<!-- #### 2. Multi-class Classification (3 Classes)
+#### 2. Multi-class Classification (3 Classes)
 ```bash
 python3 svm_classification_3classes.py
 ```
-**Output**: `Results_3_classes.md`, `svm_visualization_3classes.png`, `confusion_matrix_3classes.png` -->
+**Output**: `Results_3_classes.md`, `svm_visualization_3classes.png`, `confusion_matrix_3classes.png`
 
 #### 3. Grouped Binary Classification (Weight Vector Analysis)
 ```bash
@@ -175,19 +175,19 @@ L23_Claude/
 - Support Vectors: 10
 - Perfect separation achieved
 
-<!-- ### Scenario 2: Multi-class Classification (3 Classes)
+### Scenario 2: Multi-class Classification (3 Classes)
 
 **Configuration**:
 - Classes: Setosa, Versicolor, Virginica
 - Features: Petal Length, Petal Width
 - Kernel: RBF (Radial Basis Function)
 - Strategy: One-vs-Rest (OvR)
-- Samples: 150 (105 train, 45 test) -->
+- Samples: 150 (105 train, 45 test)
 
-<!-- **Key Results**:
+**Key Results**:
 - Accuracy: 91.11%
 - Support Vectors: 25 (3 Setosa, 11 Versicolor, 11 Virginica)
-- Main confusion: Versicolor ↔ Virginica -->
+- Main confusion: Versicolor ↔ Virginica
 
 ### Scenario 2: Grouped Binary Classification
 
@@ -239,14 +239,14 @@ See `GROUPING_EXPLANATION.md` for detailed analysis with embedded visualizations
 - Decision boundary with support vectors
 - Original data with support vectors marked
 
-<!-- ### Multi-class Classification (3 Classes)
+### Multi-class Classification (3 Classes)
 ![Multi-class Classification](svm_visualization_3classes.png)
 - Decision boundaries in scaled space
 - Original data with support vectors
 - Support vectors per class distribution
 
 ![Confusion Matrix](confusion_matrix_3classes.png)
-- Heatmap showing classification accuracy -->
+- Heatmap showing classification accuracy
 
 ### Grouped Binary Classification
 ![Grouped Classification](svm_visualization_grouped.png)
@@ -423,7 +423,7 @@ pip install -r requirements.txt
 python3 svm_classification.py
 
 # Run multi-class classification
-#python3 svm_classification_3classes.py
+python3 svm_classification_3classes.py
 
 # Run grouped classification with weight vector analysis
 python3 svm_classification_grouped.py
